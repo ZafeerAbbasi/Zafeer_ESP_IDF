@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/zafee/Documents/GITHUB/Zafeer_ESP_IDF/VScode/Projects/udemy_test/main
+# Install script for directory: C:/Users/zafee/Documents/GitHub/Zafeer_ESP_IDF/VScode/Projects/udemy_test/main
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,6 +34,6 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "C:/Espressif/tools/xtensa-esp32-elf/esp-12.2.0_20230208/xtensa-esp32-elf/bin/xtensa-esp32-elf-objdump.exe")
+  set(CMAKE_OBJDUMP "C:/Users/zafee/esp/espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-objdump.exe")
 endif()
 

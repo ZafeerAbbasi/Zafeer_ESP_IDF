@@ -4,19 +4,19 @@
 cmake_minimum_required(VERSION 3.5)
 
 file(MAKE_DIRECTORY
-  "C:/Espressif/frameworks/esp-idf-v5.1.2/components/bootloader/subproject"
-  "C:/Users/zafee/Documents/GITHUB/Zafeer_ESP_IDF/VScode/Projects/udemy_test/build/bootloader"
-  "C:/Users/zafee/Documents/GITHUB/Zafeer_ESP_IDF/VScode/Projects/udemy_test/build/bootloader-prefix"
-  "C:/Users/zafee/Documents/GITHUB/Zafeer_ESP_IDF/VScode/Projects/udemy_test/build/bootloader-prefix/tmp"
-  "C:/Users/zafee/Documents/GITHUB/Zafeer_ESP_IDF/VScode/Projects/udemy_test/build/bootloader-prefix/src/bootloader-stamp"
-  "C:/Users/zafee/Documents/GITHUB/Zafeer_ESP_IDF/VScode/Projects/udemy_test/build/bootloader-prefix/src"
-  "C:/Users/zafee/Documents/GITHUB/Zafeer_ESP_IDF/VScode/Projects/udemy_test/build/bootloader-prefix/src/bootloader-stamp"
+  "C:/Users/zafee/esp/esp-idf/components/bootloader/subproject"
+  "C:/Users/zafee/Documents/GitHub/Zafeer_ESP_IDF/VScode/Projects/udemy_test/build/bootloader"
+  "C:/Users/zafee/Documents/GitHub/Zafeer_ESP_IDF/VScode/Projects/udemy_test/build/bootloader-prefix"
+  "C:/Users/zafee/Documents/GitHub/Zafeer_ESP_IDF/VScode/Projects/udemy_test/build/bootloader-prefix/tmp"
+  "C:/Users/zafee/Documents/GitHub/Zafeer_ESP_IDF/VScode/Projects/udemy_test/build/bootloader-prefix/src/bootloader-stamp"
+  "C:/Users/zafee/Documents/GitHub/Zafeer_ESP_IDF/VScode/Projects/udemy_test/build/bootloader-prefix/src"
+  "C:/Users/zafee/Documents/GitHub/Zafeer_ESP_IDF/VScode/Projects/udemy_test/build/bootloader-prefix/src/bootloader-stamp"
 )
 
 set(configSubDirs )
 foreach(subDir IN LISTS configSubDirs)
-    file(MAKE_DIRECTORY "C:/Users/zafee/Documents/GITHUB/Zafeer_ESP_IDF/VScode/Projects/udemy_test/build/bootloader-prefix/src/bootloader-stamp/${subDir}")
+    file(MAKE_DIRECTORY "C:/Users/zafee/Documents/GitHub/Zafeer_ESP_IDF/VScode/Projects/udemy_test/build/bootloader-prefix/src/bootloader-stamp/${subDir}")
 endforeach()
 if(cfgdir)
-  file(MAKE_DIRECTORY "C:/Users/zafee/Documents/GITHUB/Zafeer_ESP_IDF/VScode/Projects/udemy_test/build/bootloader-prefix/src/bootloader-stamp${cfgdir}") # cfgdir has leading slash
+  file(MAKE_DIRECTORY "C:/Users/zafee/Documents/GitHub/Zafeer_ESP_IDF/VScode/Projects/udemy_test/build/bootloader-prefix/src/bootloader-stamp${cfgdir}") # cfgdir has leading slash
 endif()

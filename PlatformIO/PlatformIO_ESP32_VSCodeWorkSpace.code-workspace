@@ -1,8 +1,7 @@
 {
 	"folders": [
 		{
-			"name": "ESP32_Test",
-			"path": "PlatformIO/ESP32_Test"
+			"path": "ESP32_Test"
 		}
 	],
 	"settings": {
