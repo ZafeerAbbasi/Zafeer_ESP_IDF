@@ -44,7 +44,8 @@
 			"rtc.h": "c",
 			"stm32f4xx_it.h": "c",
 			"freertosconfig.h": "c",
-			"semphr.h": "c"
+			"semphr.h": "c",
+			"esp_system.h": "c"
 		},
 		"git.ignoreLimitWarning": true,
 		"idf.gitPathWin": "C:\\Users\\zafee\\esp\\espressif\\tools\\idf-git\\2.39.2\\cmd\\git.exe",
