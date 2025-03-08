@@ -1,9 +1,5 @@
 {
-	"folders": [
-		{
-			"path": "Projects/blink_test"
-		}
-	],
+	"folders": [],
 	"settings": {
 		"files.associations": {
 			"stdint.h": "c",
@@ -55,11 +51,14 @@
 		"idf.espIdfPathWin": "C:\\Users\\zafee\\esp\\esp-idf",
 		"idf.pythonBinPathWin": "C:\\Users\\zafee\\esp\\espressif\\python_env\\idf5.0_py3.11_env\\Scripts\\python.exe",
 		"idf.toolsPathWin": "C:\\Users\\zafee\\esp\\espressif",
-		"idf.customExtraPaths": "C:\\Users\\zafee\\esp\\espressif\\tools\\xtensa-esp-elf-gdb\\11.2_20220823\\xtensa-esp-elf-gdb\\bin;C:\\Users\\zafee\\esp\\espressif\\tools\\riscv32-esp-elf-gdb\\11.2_20220823\\riscv32-esp-elf-gdb\\bin;C:\\Users\\zafee\\esp\\espressif\\tools\\xtensa-esp32-elf\\esp-2022r1-11.2.0\\xtensa-esp32-elf\\bin;C:\\Users\\zafee\\esp\\espressif\\tools\\xtensa-esp32s2-elf\\esp-2022r1-11.2.0\\xtensa-esp32s2-elf\\bin;C:\\Users\\zafee\\esp\\espressif\\tools\\xtensa-esp32s3-elf\\esp-2022r1-11.2.0\\xtensa-esp32s3-elf\\bin;C:\\Users\\zafee\\esp\\espressif\\tools\\riscv32-esp-elf\\esp-2022r1-11.2.0\\riscv32-esp-elf\\bin;C:\\Users\\zafee\\esp\\espressif\\tools\\esp32ulp-elf\\2.35_20220830\\esp32ulp-elf\\bin;C:\\Users\\zafee\\esp\\espressif\\tools\\cmake\\3.24.0\\bin;C:\\Users\\zafee\\esp\\espressif\\tools\\openocd-esp32\\v0.12.0-esp32-20230921\\openocd-esp32\\bin;C:\\Users\\zafee\\esp\\espressif\\tools\\ninja\\1.10.2;C:\\Users\\zafee\\esp\\espressif\\tools\\idf-exe\\1.0.3;C:\\Users\\zafee\\esp\\espressif\\tools\\ccache\\4.6.2\\ccache-4.6.2-windows-x86_64;C:\\Users\\zafee\\esp\\espressif\\tools\\dfu-util\\0.9\\dfu-util-0.9-win64;C:\\Users\\zafee\\esp\\espressif\\tools\\esp-rom-elfs\\20220823",
+		"idf.customExtraPaths": "/Users/zafeer/.espressif/tools/xtensa-esp-elf-gdb/12.1_20231023/xtensa-esp-elf-gdb/bin:/Users/zafeer/.espressif/tools/riscv32-esp-elf-gdb/12.1_20231023/riscv32-esp-elf-gdb/bin:/Users/zafeer/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20230928/xtensa-esp-elf/bin:/Users/zafeer/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20230928/riscv32-esp-elf/bin:/Users/zafeer/.espressif/tools/esp32ulp-elf/2.35_20220830/esp32ulp-elf/bin:/Users/zafeer/.espressif/tools/openocd-esp32/v0.12.0-esp32-20230921/openocd-esp32/bin:/Users/zafeer/.espressif/tools/esp-rom-elfs/20230320",
 		"idf.customExtraVars": {
-			"OPENOCD_SCRIPTS": "C:\\Users\\zafee\\esp\\espressif\\tools\\openocd-esp32\\v0.12.0-esp32-20230921/openocd-esp32/share/openocd/scripts",
-			"IDF_CCACHE_ENABLE": "1",
-			"ESP_ROM_ELF_DIR": "C:\\Users\\zafee\\esp\\espressif\\tools\\esp-rom-elfs\\20220823/"
-		}
+			"OPENOCD_SCRIPTS": "/Users/zafeer/.espressif/tools/openocd-esp32/v0.12.0-esp32-20230921/openocd-esp32/share/openocd/scripts",
+			"ESP_ROM_ELF_DIR": "/Users/zafeer/.espressif/tools/esp-rom-elfs/20230320/"
+		},
+		"idf.espIdfPath": "/Users/zafeer/esp/v5.2.1/esp-idf",
+		"idf.pythonBinPath": "/Users/zafeer/.espressif/python_env/idf5.2_py3.12_env/bin/python",
+		"idf.toolsPath": "/Users/zafeer/.espressif",
+		"idf.gitPath": "git"
 	}
 }
