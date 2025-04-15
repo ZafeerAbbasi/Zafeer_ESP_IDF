@@ -1,10 +1,10 @@
 {
 	"folders": [
 		{
-			"path": "hello_world"
+			"path": "../../../../esp/v5.4.1/esp-idf/components"
 		},
 		{
-			"path": "../../../../esp/v5.4.1/esp-idf/components"
+			"path": "projects/sensor_demo"
 		}
 	],
 	"settings": {
