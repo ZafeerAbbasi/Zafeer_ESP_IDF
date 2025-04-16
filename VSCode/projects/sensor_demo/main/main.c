@@ -17,7 +17,10 @@
 
 /* Includes ------------------------------------------------------------------*/
 #include <stdio.h>
-
+#include <stdbool.h>
+#include <unistd.h>
+#include "sensor_demo.h"
+#include "driver/gpio.h"
 
 /* Typedef -------------------------------------------------------------------*/
 
@@ -36,7 +39,13 @@
 
 /* User code -----------------------------------------------------------------*/
 
+/**
+ * @brief Application entry point
+ * 
+ */
 void app_main(void)
 {
-
+	/* Start the BME680 task */
+	DHT_TaskStart( );
+	
 }

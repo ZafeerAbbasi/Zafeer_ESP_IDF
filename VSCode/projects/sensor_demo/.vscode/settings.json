@@ -11,5 +11,7 @@
         "IDF_CCACHE_ENABLE": "1",
         "ESP_ROM_ELF_DIR": "C:\\Users\\zafee\\esp\\espressif\\tools\\esp-rom-elfs\\20220823/",
         "IDF_TARGET": "esp32"
-    }
+    },
+    "idf.flashType": "UART",
+    "idf.port": "/dev/tty.usbserial-144201"
 }

@@ -1,9 +1,6 @@
 {
 	"folders": [
 		{
-			"path": "../../../../esp/v5.4.1/esp-idf/components"
-		},
-		{
 			"path": "projects/sensor_demo"
 		}
 	],
@@ -11,8 +8,14 @@
 		"files.associations": {
 			"freertos.h": "c",
 			"task.h": "c",
-			"esp_err.h": "c"
+			"esp_err.h": "c",
+			"unistd.h": "c",
+			"bme680_sensor.h": "c",
+			"dht.h": "c"
 		},
-		"git.ignoreLimitWarning": true
+		"git.ignoreLimitWarning": true,
+		"idf.espIdfPath": "/Users/zafeer/esp/v5.4.1/esp-idf",
+		"idf.toolsPath": "/Users/zafeer/.espressif",
+		"idf.pythonInstallPath": "/usr/local/bin/python3"
 	}
 }
